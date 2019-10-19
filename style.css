@@ -1,0 +1,50 @@
+.jumbotron {
+    background-color: rgb(104, 0, 0);
+    text-align: center;
+    color:white;
+    width: 80%;
+    height: 150pt;
+    border-radius: 8pt;
+    position: relative;
+    left: 10%;
+    margin-bottom: 30pt;
+}
+.infocont {
+    position: relative;
+    left: 10%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #name-input {
+      width: 150pt;
+  }
+ .imput {
+      width: 774pt;
+      border-radius: 2pt;
+      height: 15pt;
+      margin-top: 0.5%;
+      margin-bottom: 1%;
+  }
+  .form-group {
+      margin-left: 3%;
+      font-size: 13pt;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 15%;
+  }
+  #AddTrain {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+  }

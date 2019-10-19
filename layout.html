@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Schedules</title>
+    <link rel="stylesheet" type="text/css" href=style.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Anytime is train time</h1>
+        <hr class="my-4">
+        <p class="lead">Choo choo chee chee</p>
+    </div>
+    <div class="infocont">
+        <table>
+            <thead>
+                <tr>
+                    <th>Train</th>
+                    <th>Destination</th>
+                    <th>Frequency (min)</th>
+                    <th>Next Arrival</th>
+                    <th>Minutes Away</th>
+                </tr>
+            </thead>
+            <br>
+            <tbody id="tablebody">
+
+            </tbody>
+            
+                    <!-- <tr>
+                        <td id="TrainName1"> </td>
+                        <td id="TrainDest1"> </td>
+                        <td id="TrainFreq1"> </td>
+                        <td id="Nextarr"> </td>
+                        <td id="MinutesAw"> </td>
+                    </tr> -->
+                    <!-- <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr> -->
+
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Add Train</th>
+            </tr>
+        </table>
+        <br>
+        <form>
+            <div class="form-group">
+                Train name:
+                <br>
+                <input type="text" name="Train" class="imput" id="Tname">
+                <br>
+                Destination:
+                <br>
+                <input type="text" name="Destination" class="imput" id="Tdest">
+                <br>
+                First Train Time (HH:mm - military time):
+                <br>
+                <input type="text" name="Time" class="imput" id="Time">
+                <br>
+                Frequency (min):
+                <br>
+                <input type="text" name="Frequency" class="imput" id="Freq">
+                <br>
+                <button type="button" class="btn btn-primary" id="AddTrain">Submit</button>
+                
+        
+            </div>
+        </form>
+    </div>
+  
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="style.js"></script> 
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</body>
+
+</html>
